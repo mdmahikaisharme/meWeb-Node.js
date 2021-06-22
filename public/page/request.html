@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/request.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a id="logo" href="/">Mr<span>:)</span>Happy</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/api">Api</a></li>
+                <li><a href="/doc">Doc</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <form action="" method="GET">
+            <h1>Request</h1>
+            <select name="form-method" id="form-method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
+            </select>
+            <input type="text" name="form-url" id="form-url" placeholder="http://www.example.com">
+            <textarea name="form-body" id="form-body" placeholder="Body"></textarea>
+            <button type="submit" id="form-submit">Submit</button>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy;MdMahiKaishar2021</p>
+    </footer>
+    <script src="/javascript/request.js"></script>
+</body>
+</html>

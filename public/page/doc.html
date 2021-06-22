@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/doc.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a id="logo" href="/">Mr<span>:)</span>Happy</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/api">Api</a></li>
+                <li><a href="/doc">Doc</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <div id="left">
+            <a href="#-all-user">All Users</a>
+            <a href="#-add-user">Add User</a>
+            <a href="#-user-data">User Data</a>
+            <a href="#-update-user">Update User</a>
+            <a href="#-remove-user">Remove User</a>
+        </div>
+        <div id="right">
+            <!-- All User -->
+            <h2 id="-all-user">All User</h2>
+            <p>All the user of databse</p>
+            <div class="code">
+                GET &ThinSpace; /api/v1/user
+            </div>
+            <div class="gap"></div>
+
+            <!-- Add User -->
+            <h2 id="-add-user">Add User</h2>
+            <p>Add a new user to database</p>
+            <div class="code">
+                POST &ThinSpace; /api/v1/user/add/query?name=NAME&age=AGE&city=CITY&active=ACTIVE
+            </div>
+            <div class="gap"></div>
+
+            <!-- User Data -->
+            <h2 id="-user-data">User Data</h2>
+            <p>Single user data</p>
+            <div class="code">
+                GET &ThinSpace; /api/v1/user/:ID
+            </div>
+            <div class="gap"></div>
+
+            <!-- Update User -->
+            <h2 id="-update-user">Update User</h2>
+            <p>Update user data from databse</p>
+            <div class="code">
+                POST &ThinSpace; /api/v1/user/update/:ID/query?name=NAME&age=AGE&city=CITY&active=ACTIVE
+            </div>
+            <div class="gap"></div>
+
+            <!-- Remove User -->
+            <h2 id="-remove-user">Remove User</h2>
+            <p>Remove a user from databse</p>
+            <div class="code">
+                POST &ThinSpace; /api/v1/user/remove/:ID
+            </div>
+            <div class="gap"></div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy;MdMahiKaishar2021</p>
+    </footer>    
+</body>
+</html>
