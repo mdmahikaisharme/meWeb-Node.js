@@ -1,0 +1,47 @@
+main {
+    justify-content: space-evenly;
+}
+#hero-left {
+    width: 25em;
+}
+#hero-left h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: .1em .1em .1em rgba(0, 0, 0, .1);
+}
+#hero-left h1:nth-child(1) {
+    font-size: 4.5rem;
+    letter-spacing: .1em;
+    color: rgb(252, 145, 145);
+}
+#hero-left h1:nth-child(1) span{
+    font-size: 6rem;
+}
+#hero-left h1:nth-child(2) {
+    font-size: 2.5rem;
+    color: rgb(253, 170, 170);
+}
+#hero-left h1:nth-child(2) span {
+    font-size: 3.5rem;
+    color: rgb(255, 101, 101);
+}
+#hero-right {
+    width: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+#hero-right p {
+    font-size: 13rem;
+    color: rgb(255, 146, 146);
+    transform: rotate(90deg);
+    animation: rotate 1.25s linear infinite;
+}
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(100deg);
+    }
+    50% {
+        transform: rotate(80deg);
+    }
+}

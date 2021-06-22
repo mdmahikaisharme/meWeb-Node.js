@@ -1,0 +1,25 @@
+#api {
+    width: 25em;    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5em;
+    background: linear-gradient(135deg, #fff, rgb(255, 227, 227));
+    box-shadow: .1em .1em 2em rgba(0, 0, 0, .1);
+}
+#api > * {
+    width: 75%;
+    font-size: 1rem;
+}
+#api p {
+    margin-top: .75em; padding: .5em 1em;
+    background-color: #fff;
+    color: rgb(66, 66, 66);
+    border: .1em solid rgb(187, 187, 187);
+    border-radius: .4em;    
+    box-shadow: .1em .1em .5em rgba(0, 0, 0, .1);
+}
+#api p:hover {
+    border-color: rgb(85, 85, 85);
+}

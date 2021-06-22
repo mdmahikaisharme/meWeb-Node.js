@@ -1,0 +1,50 @@
+form {
+    width: 27.5em;    height: 30em;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fff, rgb(255, 223, 223));
+    box-shadow: .2em .2em 1em rgba(0, 0, 0, .1);
+    border-radius: .5em;
+}
+form h1 {
+    margin-bottom: .75em;
+    text-transform: uppercase;
+    
+}
+#form-email,
+#form-body,
+form button {
+    width: 80%;
+    padding: .5em 1em;
+    font-size: .95rem;
+    background: none;
+    border: .1em solid rgb(187, 187, 187);
+    box-shadow: .1em .1em .2em rgba(0, 0, 0, .1);
+    border-radius: .5em;
+    outline: none;
+}
+
+#form-body {
+    height: 10em;
+    max-height: 10em;
+    margin: .5em;
+}
+form button {
+    width: auto;
+    padding: .5em 4em;
+}
+form button:hover {
+    font-weight: 700;
+    color: rgb(255, 152, 152);
+    background-color: #fff;
+    border: #000;
+}
+#form-email:focus,
+#form-email:hover,
+#form-body:focus,
+#form-body:hover {
+    border-color: rgb(85, 85, 85);
+}

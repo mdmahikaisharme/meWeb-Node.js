@@ -1,0 +1,34 @@
+#error {
+    width: 25em;    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fff, rgb(231, 231, 231));
+    box-shadow: .1em .1em 2em rgba(0, 0, 0, .1);
+    border-radius: .5em;
+}
+#error h1 {
+    font-size: 4.5rem;
+    letter-spacing: .1em;
+    color: rgb(255, 97, 97);
+    text-shadow: .1em .1em .1em rgba(0, 0, 0, .1);
+}
+#error p {
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    text-shadow: .1em .1em .1em rgba(0, 0, 0, .1);
+}
+#error a {
+    margin-top: 1em;    padding: .5em 2em;
+    background-color: rgb(255, 196, 196);
+    color: #fff;
+    border-radius: .5em;
+    box-shadow: .1em .1em .5em rgba(0, 0, 0, .1);
+    transition: all .3s ease;
+}
+#error a:hover {
+    font-weight: 700;
+    background-color: #fff;
+    color: rgb(255, 101, 101);
+}
